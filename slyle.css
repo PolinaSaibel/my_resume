@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: #f1e3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fefefe;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.5);
+}
+
+.container .left_bord
+{
+    position: relative;
+    background: #6f7f40;
+    padding: 40px;
+}
+
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 100%;
+
+}
+.profile .img_profile 
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    
+}
+.profile .img_profile img
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.profile h2 
+{
+    color: #f5f5f5;
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile h2 span
+{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.profile hr
+{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+.contacts
+{
+    font-size: 1em;
+    padding: 50px 0;
+    color: #f5f5f5;
+}
+
+.title
+{
+    color: #f5f5f5;
+    padding-block-end: 18px;
+}
+.contacts ul li 
+{
+    align-items: center;
+    font-size: 0.9em;
+    list-style-type: none;
+}
+
+.contacts ul li span.text
+{
+    position: absolute;
+    font-size: larger;
+    margin-block: auto;
+}
+
+.material-symbols-outlined {
+
+    padding-right: 6px;
+    color: #2b3217;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+.education
+{
+    font-size: 1em;
+    padding: 50px 0;
+    width: 100%;
+    color: #f5f5f5;
+}
+
+.education ul li
+{
+    position: absolute;
+    font-size: larger;
+    margin-block: auto;
+    list-style-type: none;
+}
+
+.skill
+{
+    font-weight: bold;
+}
+
+.container .right_bord
+{
+    position: relative;
+    background: #f5f5f5;
+    padding: 40px;
+
+}
+
+.about
+{
+    color:#6f7f40;
+    margin-bottom: 50px;
+    
+}
+
+.right_text
+{
+    font-size: large;
+}
+.about h2
+{
+    color: #2b3217;
+    font-size: 1.5em;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: start;
+    font-weight: bold;
+}
+
+.about ul li
+{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.about ul li span.text2
+{
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #d3dcb6;
+    display: block;
+}
+
+.skills
+{
+    background: #6f7f40;
+    position: absolute;
+    height: 10px;
+
+}
+.hobby ul 
+{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    
+}
+.hobby ul li 
+{
+    margin-right: 15px;
+}
+
+header {
+    color: rgb(47, 46, 50);
+    align-self: flex-end;
+    background-color: rgb(201, 199, 223);
+    font-family: "Roboto Regular", sans-serif;
+    font-weight: bolder;
+    font-size: 240%;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
